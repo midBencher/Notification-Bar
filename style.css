@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dadada;
+    overflow-y: scroll;
+}
+.container{
+    background-color: white;
+   height: 85vh;
+   width: 40vw;
+   padding: 1rem;
+   
+}
+.notifactionText{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notification{
+    width: 7.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notificationCount{
+    background-color: rgb(12, 12, 179);
+    color: white;
+    height: 1.3rem;
+    width: 1rem;
+    text-align: center;
+}
+.unreadNotification1{
+    background: #dadada;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: small;
+    display: flex;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.unreadNotification2{
+    background: #dadada;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: small;
+    display: flex;
+    border-radius: 0.4rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.unreadNotification3{
+    background: #dadada;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: small;
+    display: flex;
+    border-radius: 0.4rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+img{
+    margin-right: 0.5rem;
+}
+.redDot{
+height: 0.5rem;
+width: 0.5rem;
+background-color: red;
+border-radius: 50%;
+}
+.read1{
+   height: 10rem;
+   padding: 0.5rem;
+   font-size: small;
+   cursor: pointer;
+   
+}
+.imageName{
+    display: flex;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+}
+.message{
+   height: 5rem;
+   width: 90%;
+   border: 0.1rem solid #dadada;
+   padding: 1rem;
+   margin-left: 3rem;
+}
+.read2{
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: small;
+    display: flex;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.read3{
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: small;
+    display: flex;
+    margin-bottom: 0.5rem; 
+    cursor: pointer;
+}
+.read4{
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: small;
+    display: flex;
+    cursor: pointer;
+    
+}
+.markUnread{
+    cursor: pointer;
+}
